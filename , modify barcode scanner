@@ -1,0 +1,26 @@
+# When a barcode scanner connects to your iPad running Shopify POS, it essentially becomes part of your payment processing chain. Anyone who modifies this hardware could potentially:
+
+1) Install hidden firmware that skims transaction data
+2) Create backdoors that allow remote access to your system
+3) Implement keystroke logging to capture passwords or other sensitive information
+4) Add components that could intercept customer payment data
+
+If you decide to modify the hardware yourself, here are things oyu can do:
+1) Antenna Modification for Better Bluetooth or replace the Bluetooth module (easiest)
+2) USB direct connection (hardest and damage the scanner if you aren't expereince, so here's the instructions)
+
+# Instructions 
+1) Locate the main circuit board
+2) Find the power input connections
+3) Find data transmission points
+4) Bypass wireless components( Bluetooth module) by connecting to USB data line 
+- For USB: Connect to + and - lines in the USB cable
+- For Lightning: I have no idea, but it's harder as they use some protocol
+
+# Power connection:
+1) Connect the USB/Lightning cable's power linesto the scanner's power input
+2) You may need a voltage regulator if the scanner expects a different voltage than USB provides (5V)
+
+# Alternatives:
+- Buy the required tools and watch as they modify the barcode in front of you
+- Ensure modifying your own barcode scanner is not illegal in Canada, because  if they know how to modify a barcode scanner, they proably know how to do other stuff
