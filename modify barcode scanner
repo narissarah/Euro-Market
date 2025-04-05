@@ -22,5 +22,6 @@ If you decide to modify the hardware yourself, here are things oyu can do:
 2) You may need a voltage regulator if the scanner expects a different voltage than USB provides (5V)
 
 # Alternatives:
-- Buy the required tools and watch as they modify the barcode in front of you
-- Ensure modifying your own barcode scanner is not illegal in Canada, because  if they know how to modify a barcode scanner, they proably know how to do other stuff
+- Buy the required tools and watch as they modify the barcode in front of you( Ensure modifying your own barcode scanner is not illegal in Canada, because  if they know how to modify a barcode scanner, they proably know how to do other stuff) (cheapest, but hardest)
+- Get a programmable Barcode scanner and program it for surffix. (need to buy additional barcode, makes the most sense)
+- modify the POS to handle barcode scanner (expensive, makes the least sense)
